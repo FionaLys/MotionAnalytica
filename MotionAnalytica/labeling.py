@@ -34,6 +34,7 @@ else:
     file = files[number]
     oldFilePath = path + file
     print("Es wird ", oldFilePath, " umbenannt.")
+    person = input('Wer hat geworfen? ')
     distance = input(str(number) + ': Wie weit wurde geworfen (in cm)? ')
     newFilePath = path + str(number) + "_" + person + "_" + distance + "cm_" + frequency + "Hz.csv"
     os.rename(oldFilePath, newFilePath)
