@@ -16,7 +16,6 @@ files = os.listdir(path)
 print("Die folgenden Dateien sind vorhanden: ", files)
 
 mode = int(input('Welche Datei soll umbenannt werden? (0 für alle, ansonsten Nummer angeben) '))
-person = input('Wer hat geworfen? ')
 frequency = input('Welche Frequenz wurde verwendet (in Hz)? ')
 
 if mode == 0:
@@ -25,6 +24,7 @@ if mode == 0:
     for file in files:
         number += 1
         oldFilePath = path + file
+        person = input('Wer hat geworfen? ')
         distance = input(str(number) + ': Wie weit wurde geworfen (in cm)? ')
         newFilePath = path + str(number) + "_" + person + "_" + distance + "cm_" + frequency + "Hz.csv"
         os.rename(oldFilePath, newFilePath)

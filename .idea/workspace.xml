@@ -1,57 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Change beschl.py for naming of variables&#10;Add .gitignore file">
-      <change afterPath="$PROJECT_DIR$/MotionAnalytica/animation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MotionAnalytica/genPlots.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MotionAnalytica/labeling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_05_firstTry/plot/1_Ole_1250cm_30Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_05_firstTry/plot/2_Ole_1400cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/10_Ole_400cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/11_Ole_500cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/12_Ole_500cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/13_Ole_500cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/14_Ole_1700cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/15_Ole_lostcm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/16_Ole_1000cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/17_Ole_1300cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/18_Ole_1500cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/19_Ole_1400cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/1_Ole_1500cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/20_Ole_1400cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/21_Ole_2000cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/2_Ole_1600cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/3_Ole_1300cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/4_Ole_1600cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/5_Ole_1500cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/6_Ole_1500cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/7_Ole_1500cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/8_Ole_1700cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/csv/9_Ole_1000cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/10_Ole_400cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/11_Ole_500cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/12_Ole_500cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/13_Ole_500cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/14_Ole_1700cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/15_Ole_lostcm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/16_Ole_1000cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/17_Ole_1300cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/18_Ole_1500cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/19_Ole_1400cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/1_Ole_1500cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/20_Ole_1400cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/21_Ole_2000cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/2_Ole_1600cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/3_Ole_1300cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/4_Ole_1600cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/5_Ole_1500cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/6_Ole_1500cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/7_Ole_1500cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/8_Ole_1700cm_100Hz_Beschleunigung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_05_12_secondTry/plot/9_Ole_1000cm_100Hz_Beschleunigung.png" afterDir="false" />
+    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Rename folders&#10;Add plots to data">
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_37_57_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_39_16_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_40_34_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_41_22_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_42_07_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_42_45_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_43_42_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_44_55_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_45_12_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_45_33_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_46_04_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_46_25_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_46_40_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_46_56_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_47_15_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_47_45_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_48_05_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_48_18_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_48_34_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_49_15_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_49_38_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_50_02_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_51_16_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_51_32_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_51_52_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_52_08_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_52_26_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_52_45_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_53_47_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_54_26_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_54_32_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_54_53_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_55_10_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_55_33_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_55_54_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_56_08_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_56_22_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_10_57_56_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_02_03_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_03_15_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_05_24_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_06_04_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_06_53_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_07_33_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_08_42_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_09_06_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_09_14_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_09_40_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_09_55_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_11_09_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_11_58_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_12_15_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_12_27_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/plot/2022-06-02_11_12_45_Apple┬áWatch von Ole_Beschleunigung.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/beschl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/beschl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/2022_05_05_firstTry/plot/myplot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/labeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/labeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_38_38_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_38_38_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_39_55_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_39_55_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_41_04_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_41_04_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_41_56_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_41_56_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_42_45_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_42_45_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_43_20_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_43_20_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_44_25_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_44_25_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_45_09_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_45_09_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_45_38_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_45_38_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_46_07_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_46_07_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_46_38_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_46_38_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_48_03_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_48_03_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_48_26_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_48_26_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_48_59_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_48_59_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_49_43_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_49_43_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_51_22_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_51_22_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_52_13_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_52_13_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_53_31_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_53_31_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_54_44_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_54_44_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_55_20_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_55_20_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_56_33_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_56_33_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_57_38_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_57_38_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/Burki/2022-06-02_10_58_06_Apple┬áWatch von Burkhardt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/2022-06-02_10_58_06_Apple┬áWatch von Burkhardt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_37_57_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_37_57_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_39_16_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_39_16_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_40_34_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_40_34_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_41_22_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_41_22_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_42_07_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_42_07_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_42_45_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_42_45_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_43_42_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_43_42_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_44_55_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_44_55_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_45_12_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_45_12_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_45_33_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_45_33_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_46_04_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_46_04_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_46_25_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_46_25_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_46_40_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_46_40_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_46_56_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_46_56_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_47_15_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_47_15_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_47_45_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_47_45_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_48_05_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_48_05_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_48_18_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_48_18_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_48_34_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_48_34_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_49_15_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_49_15_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_49_38_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_49_38_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_50_02_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_50_02_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_51_16_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_51_16_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_51_32_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_51_32_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_51_52_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_51_52_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_52_08_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_52_08_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_52_26_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_52_26_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_52_45_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_52_45_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_53_47_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_53_47_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_54_26_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_54_26_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_54_32_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_54_32_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_54_53_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_54_53_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_55_10_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_55_10_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_55_33_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_55_33_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_55_54_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_55_54_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_56_08_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_56_08_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_56_22_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_56_22_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_10_57_56_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_10_57_56_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_02_03_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_02_03_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_03_15_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_03_15_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_05_24_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_05_24_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_06_04_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_06_04_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_06_53_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_06_53_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_07_33_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_07_33_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_08_42_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_08_42_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_09_06_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_09_06_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_09_14_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_09_14_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_09_40_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_09_40_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_09_55_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_09_55_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_11_09_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_11_09_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_11_58_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_11_58_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_12_15_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_12_15_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_12_27_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_12_27_Apple┬áWatch von Ole.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_thirdTry/Ole/2022-06-02_11_12_45_Apple┬áWatch von Ole.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/csv/2022-06-02_11_12_45_Apple┬áWatch von Ole.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +185,7 @@
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_05_05_firstTry" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.animation">
+  <component name="RunManager" selected="Python.genPlots">
     <configuration name="animation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MotionAnalytica" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,8 +276,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.animation" />
         <item itemvalue="Python.genPlots" />
+        <item itemvalue="Python.animation" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +300,13 @@
       <workItem from="1652869261513" duration="5002000" />
       <workItem from="1652875878999" duration="1122000" />
       <workItem from="1652945101300" duration="96000" />
+      <workItem from="1653380272702" duration="265000" />
+      <workItem from="1653380767253" duration="18000" />
+      <workItem from="1653383701300" duration="13000" />
+      <workItem from="1653384124128" duration="634000" />
+      <workItem from="1653988535675" duration="8000" />
+      <workItem from="1654162145826" duration="614000" />
+      <workItem from="1654164438985" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="Update profile pictures">
       <created>1651166632841</created>
@@ -246,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652172243127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change labeling.py and genPlots.py&#10;Add new Data">
+      <created>1653380321536</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653380321536</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,12 +367,14 @@
     <MESSAGE value="Add algorithm + data" />
     <MESSAGE value="Change beschl.py to get relative path to data file" />
     <MESSAGE value="Change beschl.py for naming of variables&#10;Add .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change beschl.py for naming of variables&#10;Add .gitignore file" />
+    <MESSAGE value="Change labeling.py and genPlots.py&#10;Add new Data" />
+    <MESSAGE value="Rename folders&#10;Add plots to data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename folders&#10;Add plots to data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MotionAnalytica$labeling.coverage" NAME="labeling Coverage Results" MODIFIED="1652870184202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$animation.coverage" NAME="animation Coverage Results" MODIFIED="1652874345962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$beschl.coverage" NAME="beschl Coverage Results" MODIFIED="1652869393183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$genPlots.coverage" NAME="genPlots Coverage Results" MODIFIED="1652874195694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$genPlots.coverage" NAME="genPlots Coverage Results" MODIFIED="1654164727242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
   </component>
 </project>
