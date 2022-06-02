@@ -11,7 +11,7 @@ y = 1  # bool
 column_x = 'accelerometerAccelerationX(G)'
 column_y = 'accelerometerAccelerationY(G)'
 column_z = 'accelerometerAccelerationZ(G)'
-timestamp = 'accelerometerTimestamp_sinceReboot(s)'
+timestamp = 'accelerometerT  imestamp_sinceReboot(s)'
 
 mode = 1  # 1 is acceleleration, 2 is speed, 3 is distance
 
