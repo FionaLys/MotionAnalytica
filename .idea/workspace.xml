@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Label CSV Data for fourth and third Try&#10;Generate Plots">
-      <change afterPath="$PROJECT_DIR$/MotionAnalytica/32_Nick_2800cm_100Hz.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MotionAnalytica/getThrow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_06_02_SensorTest/csv/ForwardBackRightLeftUpDown.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2022_06_02_SensorTest/myplot.png" afterDir="false" />
+    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Add getThrow.py and SensorTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/beschl.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/beschl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/genPlots.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/genPlots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,7 @@
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_05_05_firstTry" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.beschl">
+  <component name="RunManager" selected="Python.genPlots">
     <configuration name="animation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MotionAnalytica" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.getThrow" />
         <item itemvalue="Python.genPlots" />
+        <item itemvalue="Python.getThrow" />
         <item itemvalue="Python.animation" />
       </list>
     </recent_temporary>
@@ -204,7 +200,7 @@
       <workItem from="1653384124128" duration="634000" />
       <workItem from="1653988535675" duration="8000" />
       <workItem from="1654162145826" duration="614000" />
-      <workItem from="1654164438985" duration="5124000" />
+      <workItem from="1654164438985" duration="5997000" />
     </task>
     <task id="LOCAL-00001" summary="Update profile pictures">
       <created>1651166632841</created>
@@ -262,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654166688589</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add getThrow.py and SensorTest">
+      <created>1654169675921</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654169675921</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,24 +293,14 @@
     <MESSAGE value="Rename folders&#10;Add plots to data" />
     <MESSAGE value="Add plots to data 2022_06_02_fourthTry" />
     <MESSAGE value="Label CSV Data for fourth and third Try&#10;Generate Plots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Label CSV Data for fourth and third Try&#10;Generate Plots" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MotionAnalytica/getThrow.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add getThrow.py and SensorTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getThrow.py and SensorTest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MotionAnalytica$labeling.coverage" NAME="labeling Coverage Results" MODIFIED="1654166160460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$animation.coverage" NAME="animation Coverage Results" MODIFIED="1652874345962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$beschl.coverage" NAME="beschl Coverage Results" MODIFIED="1654169359819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$genPlots.coverage" NAME="genPlots Coverage Results" MODIFIED="1654166571836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow.coverage" NAME="getThrow Coverage Results" MODIFIED="1654169306308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$beschl.coverage" NAME="beschl Coverage Results" MODIFIED="1654169961014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$genPlots.coverage" NAME="genPlots Coverage Results" MODIFIED="1654170361110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow.coverage" NAME="getThrow Coverage Results" MODIFIED="1654169996103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
   </component>
 </project>

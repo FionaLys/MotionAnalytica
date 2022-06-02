@@ -13,7 +13,7 @@ x_max = 8
 y_min = -30
 y_max = 15
 
-mode = 1  # 1 is acceleleration, 2 is speed, 3 is distance
+mode = 2  # 1 is acceleleration, 2 is speed, 3 is distance
 
 while x == 1:
     folder = input('Welcher Ordner soll verwendet werden werden? ')
