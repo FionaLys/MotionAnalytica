@@ -1,9 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Add getThrow.py and SensorTest">
+    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Add Speed Plots">
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/11_Funk_1600cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/12_Nils_3100cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/13_Nils_4200cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/14_Nils_3500cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/15_Nils_4000cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/16_Nils_4200cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/17_Nils_4600cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/18_Andreas_4200cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/19_Andreas_4100cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/1_Funk_3300cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/20_Andreas_3900cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/21_Funk_2900cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/22_Funk_2100cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/23_Funk_3200cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/2_Funk_3100cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/3_Funk_2600cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/4_Funk_2900cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/5_Funk_3000cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/6_Funk_2800cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/7_Funk_3000cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_fourthTry/throwPlot/9_Funk_2200cm_100Hz_Beschleunigung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/10_xy_2600cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/11_xy_2700cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/12_xy_2400cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/13_xy_2300cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/14_xy_1300cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/15_xy_1300cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/17_xy_2100cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/18_xy_2000cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/19_xy_3300cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/1_xy_2000cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/20_Ioannis_2800cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/21_Ioannis_2400cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/22_Ioannis_2700cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/23_Ioannis_2500cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/24_Ioannis_2700cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/25_Ioannis_2600cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/26_Ioannis_2600cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/27_Ioannis_2400cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/28_Ioannis_2100cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/29_Nick_2600cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/2_xy_3400cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/30_Nick_1900cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/32_Nick_2800cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/33_Nick_2900cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/34_Nick_2300cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/35_Nick_2600cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/36_Nick_2600cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/37_Nick_2500cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/38_Nils_3700cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/39_Nils_4800cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/3_xy_2400cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/40_Nils_4600cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/41_Enno_4100cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/42_Enno_4200cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/43_Enno_4300cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/44_Enno_2200cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/45_Luzian_2500cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/47_Luzian_2700cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/48_Luzian_2900cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/4_xy_3700cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/5_xy_3200cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/6_xy_2700cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/7_xy_4200cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/8_xy_2600cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2022_06_02_thirdTry/throwPlot/9_xy_2400cm_100Hz_Beschleunigung (Wurf).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/genPlots.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/genPlots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/32_Nick_2800cm_100Hz.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/getThrow.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/getThrow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/2022_06_02_fourthTry/csv/10_Funk_1600cm_100Hz.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +124,7 @@
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_05_05_firstTry" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.genPlots">
+  <component name="RunManager" selected="Python.getThrow">
     <configuration name="animation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MotionAnalytica" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,8 +237,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.genPlots" />
         <item itemvalue="Python.getThrow" />
+        <item itemvalue="Python.genPlots" />
         <item itemvalue="Python.animation" />
       </list>
     </recent_temporary>
@@ -200,7 +268,9 @@
       <workItem from="1653384124128" duration="634000" />
       <workItem from="1653988535675" duration="8000" />
       <workItem from="1654162145826" duration="614000" />
-      <workItem from="1654164438985" duration="5997000" />
+      <workItem from="1654164438985" duration="6294000" />
+      <workItem from="1654170806008" duration="57000" />
+      <workItem from="1654670976286" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="Update profile pictures">
       <created>1651166632841</created>
@@ -265,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654169675921</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Speed Plots">
+      <created>1654170764765</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654170764765</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,13 +371,14 @@
     <MESSAGE value="Add plots to data 2022_06_02_fourthTry" />
     <MESSAGE value="Label CSV Data for fourth and third Try&#10;Generate Plots" />
     <MESSAGE value="Add getThrow.py and SensorTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add getThrow.py and SensorTest" />
+    <MESSAGE value="Add Speed Plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Speed Plots" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MotionAnalytica$labeling.coverage" NAME="labeling Coverage Results" MODIFIED="1654166160460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$animation.coverage" NAME="animation Coverage Results" MODIFIED="1652874345962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$beschl.coverage" NAME="beschl Coverage Results" MODIFIED="1654169961014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$genPlots.coverage" NAME="genPlots Coverage Results" MODIFIED="1654170361110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow.coverage" NAME="getThrow Coverage Results" MODIFIED="1654169996103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow.coverage" NAME="getThrow Coverage Results" MODIFIED="1654673731039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
   </component>
 </project>
