@@ -136,15 +136,6 @@ def count_time_lg_z(i):
 def count_time_lg_yz(i):
     return count_time_lg_y(i) + count_time_lg_z(i)
 
-
-#Intelligence
-def predict_distance():
-    df['Predicted Distance'] = df['Count Duration > Sum'] * 1000
-
-def calculate_error():
-    df['Error'] = df['Distance'] - df['Predicted Distance']
-
-
 #Main-Method
 
 ##Create df with all throws and all features added to dictionary data
@@ -182,12 +173,6 @@ insert_feature('Sum Abs Max Acceleration', sum_max_abs_acceleration)
 print_feature_correlation()
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 200)
-predict_distance()
-calculate_error()
 
-error = int(sum((df['Predicted Distance'].multiply(df['Predicted Distance'])**(1/2))))
-print(error)
-weighted_error = int(error / len(df))
-print('The Average error is', weighted_error / 100, 'meter')
-print(df)
+
 
