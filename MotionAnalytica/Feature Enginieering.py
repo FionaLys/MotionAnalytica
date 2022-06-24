@@ -152,7 +152,7 @@ initialize_feature_rating()
 df = create_feature_rating()
 
 ##Add Features to FeatureDataFrame
-
+'''
 insert_feature('Max Acceleration X', max_acceleration_x)
 insert_feature('Max Acceleration Y', max_acceleration_y)
 insert_feature('Max Acceleration Z', max_acceleration_z)
@@ -161,13 +161,13 @@ insert_feature('Sum Max Acceleration', sum_max_acceleration)
 insert_feature('Sum Mean Acceleration', mean_acceleration_x_y)
 insert_feature('Mean Acceleration X', mean_acceleration_x)
 insert_feature('Mean Acceleration Y', mean_acceleration_y)
-insert_feature('Mean Acceleration Z', mean_acceleration_z)
+insert_feature('Mean Acceleration Z', mean_acceleration_z)'''
 
 insert_feature('Count Duration > X', count_time_lg_x)
 insert_feature('Count Duration > Y', count_time_lg_y)
 insert_feature('Count Duration > Z', count_time_lg_z)
-insert_feature('Count Duration > Sum', count_time_lg_yz)
-
+insert_feature('Count Duration > Sum', count_time_lg_yz)                                    #Currently in use for Distance Prediction
+'''
 insert_feature('Min Acceleration X', min_acceleration_x)
 insert_feature('Min Acceleration Y', min_acceleration_y)
 insert_feature('Min Acceleration Z', min_acceleration_z)
@@ -176,7 +176,7 @@ insert_feature('Abs Max Acceleration X', max_abs_acceleration_x)
 insert_feature('Abs Max Acceleration Y', max_abs_acceleration_y)
 insert_feature('Abs Max Acceleration Z', max_abs_acceleration_z)
 insert_feature('Sum Abs Max Acceleration', sum_max_abs_acceleration)
-
+'''
 ##Execution
 
 print_feature_correlation()
