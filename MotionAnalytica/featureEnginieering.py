@@ -170,9 +170,7 @@ insert_feature('Sum Abs Max Acceleration', sum_max_abs_acceleration)
 '''
 ##Execution
 
-print_feature_correlation()
-pd.set_option('display.max_columns', 500)
-pd.set_option('display.width', 200)
+
 
 
 

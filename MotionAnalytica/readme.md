@@ -1,5 +1,5 @@
 #über uns:
-wir sind drei idioten die wi studieren. :)
+Wir sind drei Idioten, die wi studieren. :)
 
 :) <- Ole
 
