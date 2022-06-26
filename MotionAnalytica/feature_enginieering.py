@@ -139,6 +139,8 @@ def count_time_lg_z(i):
 def count_time_lg_yz(i):
     return count_time_lg_y(i) + count_time_lg_z(i)
 
+
+
 #Main-Method
 
 ##Create df with all throws and all features added to dictionary data
