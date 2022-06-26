@@ -6,7 +6,7 @@ import numpy as np
 #Import File-names
 from pandas import DataFrame
 
-file_paths = '../data/2022_06_02_thirdTry/throwCsv'
+file_paths = '../data/All_throws/throwCsv/'
 
 #Data to be inserted into df
 data = {}
@@ -24,7 +24,7 @@ def initialize_feature_rating():
     #Safe one df for every throw in list
     df_throws = []
     for file in files_sorted_asc:
-        file_directory = '../data/2022_06_02_thirdTry/throwCsv/' + file
+        file_directory = file_paths + file
         df = pd.read_csv(file_directory)
         df_throws.append(df)
 
@@ -143,7 +143,7 @@ initialize_feature_rating()
 df = create_feature_rating()
 
 ##Add Features to FeatureDataFrame
-'''
+
 insert_feature('Max Acceleration X', max_acceleration_x)
 insert_feature('Max Acceleration Y', max_acceleration_y)
 insert_feature('Max Acceleration Z', max_acceleration_z)
@@ -152,13 +152,13 @@ insert_feature('Sum Max Acceleration', sum_max_acceleration)
 insert_feature('Sum Mean Acceleration', mean_acceleration_x_y)
 insert_feature('Mean Acceleration X', mean_acceleration_x)
 insert_feature('Mean Acceleration Y', mean_acceleration_y)
-insert_feature('Mean Acceleration Z', mean_acceleration_z)'''
+insert_feature('Mean Acceleration Z', mean_acceleration_z)
 
 insert_feature('Count Duration > X', count_time_lg_x)
 insert_feature('Count Duration > Y', count_time_lg_y)
 insert_feature('Count Duration > Z', count_time_lg_z)
 insert_feature('Count Duration > Sum', count_time_lg_yz)                                    #Currently in use for Distance Prediction
-'''
+
 insert_feature('Min Acceleration X', min_acceleration_x)
 insert_feature('Min Acceleration Y', min_acceleration_y)
 insert_feature('Min Acceleration Z', min_acceleration_z)
@@ -167,7 +167,7 @@ insert_feature('Abs Max Acceleration X', max_abs_acceleration_x)
 insert_feature('Abs Max Acceleration Y', max_abs_acceleration_y)
 insert_feature('Abs Max Acceleration Z', max_abs_acceleration_z)
 insert_feature('Sum Abs Max Acceleration', sum_max_abs_acceleration)
-'''
+
 ##Execution
 
 
