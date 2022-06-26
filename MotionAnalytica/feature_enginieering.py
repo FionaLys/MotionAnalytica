@@ -3,7 +3,7 @@ from os import listdir
 from os.path import isfile, join
 import numpy as np
 
-#Import File-names
+
 from pandas import DataFrame
 
 file_paths = '../data/All_throws/throwCsv/'
@@ -97,6 +97,9 @@ def min_acceleration_y(i):
 def min_acceleration_z(i):
     return i['accelerometerAccelerationZ(G)'].min()
 
+def sum_min_acceleration(i):
+    return min_acceleration_x(i) + min_acceleration_y(i) + min_acceleration_z(i)
+
 def max_acceleration_x(i):
     return i['accelerometerAccelerationX(G)'].max()
 
@@ -144,29 +147,21 @@ df = create_feature_rating()
 
 ##Add Features to FeatureDataFrame
 
-insert_feature('Max Acceleration X', max_acceleration_x)
-insert_feature('Max Acceleration Y', max_acceleration_y)
-insert_feature('Max Acceleration Z', max_acceleration_z)
-insert_feature('Sum Max Acceleration', sum_max_acceleration)
+feature_names = ['Max Acceleration X', 'Max Acceleration Y', 'Max Acceleration Z', 'Sum Max Acceleration',
+                 'Sum Mean Acceleration', 'Mean Acceleration X', 'Mean Acceleration Y', 'Mean Acceleration Z',
+                 'Count Duration > X', 'Count Duration > Y', 'Count Duration > Z', 'Count Duration > Sum',
+                 'Min Acceleration X', 'Min Acceleration Y', 'Min Acceleration Z', 'Sum Min Acceleration',
+                 'Abs Max Acceleration X', 'Abs Max Acceleration Y', 'Abs Max Acceleration Z', 'Sum Abs Max Acceleration']
 
-insert_feature('Sum Mean Acceleration', mean_acceleration_x_y)
-insert_feature('Mean Acceleration X', mean_acceleration_x)
-insert_feature('Mean Acceleration Y', mean_acceleration_y)
-insert_feature('Mean Acceleration Z', mean_acceleration_z)
+feature_functions = [max_acceleration_x, max_acceleration_y, max_acceleration_z, sum_max_acceleration,
+                     mean_acceleration_x_y, mean_acceleration_x, mean_acceleration_y, mean_acceleration_z,
+                     count_time_lg_x, count_time_lg_y, count_time_lg_z, count_time_lg_yz,
+                     min_acceleration_x, min_acceleration_y, min_acceleration_z, sum_min_acceleration,
+                     max_abs_acceleration_x, max_abs_acceleration_y, max_abs_acceleration_z, sum_max_abs_acceleration]
 
-insert_feature('Count Duration > X', count_time_lg_x)
-insert_feature('Count Duration > Y', count_time_lg_y)
-insert_feature('Count Duration > Z', count_time_lg_z)
-insert_feature('Count Duration > Sum', count_time_lg_yz)                                    #Currently in use for Distance Prediction
+for x, y in zip(feature_names, feature_functions):
+    insert_feature(x, y)
 
-insert_feature('Min Acceleration X', min_acceleration_x)
-insert_feature('Min Acceleration Y', min_acceleration_y)
-insert_feature('Min Acceleration Z', min_acceleration_z)
-
-insert_feature('Abs Max Acceleration X', max_abs_acceleration_x)
-insert_feature('Abs Max Acceleration Y', max_abs_acceleration_y)
-insert_feature('Abs Max Acceleration Z', max_abs_acceleration_z)
-insert_feature('Sum Abs Max Acceleration', sum_max_abs_acceleration)
 
 ##Execution
 
