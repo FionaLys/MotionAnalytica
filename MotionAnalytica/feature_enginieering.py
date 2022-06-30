@@ -17,6 +17,7 @@ feature_correlation_values = feature_correlation.values()
 
 #Base Functions of Feature Rating
 def initialize_feature_rating():
+
     #Get filenames of throws
     files = [file for file in listdir(file_paths) if 'lost' not in file]        #Filters lost throws
     files_sorted_asc = sorted(files, key=lambda x: int(x.split('_')[0]))
@@ -28,13 +29,22 @@ def initialize_feature_rating():
         df = pd.read_csv(file_directory)
         df_throws.append(df)
 
+    def find_nth(file, name, n):
+        start = file.find(name)
+        while start >= 0 and n > 1:
+            start = file.find(name, start + len(name))
+            n -= 1
+        return start
+
     #Extract throw distance out of file names
     throw_distance = [int(distance[distance.find('cm_')-4:distance.find('cm_')]) for distance in files_sorted_asc]
+    thrower = [file[find_nth(file, '_', 2) + 1:find_nth(file, '_', 3)] for file in files_sorted_asc]
 
     #Insert into dictionary
     data['File Name'] = files_sorted_asc
     data['Throw Data Frames'] = df_throws
     data['Distance'] = throw_distance
+    data['Thrower'] = thrower
 
 def create_feature_rating():
     #Fill dataframe with data from dictionary
@@ -139,6 +149,31 @@ def count_time_lg_z(i):
 def count_time_lg_yz(i):
     return count_time_lg_y(i) + count_time_lg_z(i)
 
+def motionRotationRateX(i):
+    return i['motionRotationRateX(rad/s)'].mean()
+
+def motionQuaternionX(i):
+    return i['motionQuaternionX(R)'].mean()
+
+def motionUserAccelerationX(i):
+    return i['motionUserAccelerationX(G)'].mean()
+
+def motionGravityX(i):
+    return i['motionGravityX(G)'].mean()
+
+
+
+
+
+
+def min_acceleration(i):
+    return min([min_acceleration_x(i), min_acceleration_y(i), min_acceleration_z(i)])
+
+def person():
+    throwers = list(df['Thrower'].unique())
+    for thrower in throwers:
+        df[thrower] = np.where(df['Thrower'] == thrower, 1, 0)
+    #df.drop('Nils', 'xy')
 
 
 #Main-Method
@@ -153,16 +188,24 @@ feature_names = ['Max Acceleration X', 'Max Acceleration Y', 'Max Acceleration Z
                  'Sum Mean Acceleration', 'Mean Acceleration X', 'Mean Acceleration Y', 'Mean Acceleration Z',
                  'Count Duration > X', 'Count Duration > Y', 'Count Duration > Z', 'Count Duration > Sum',
                  'Min Acceleration X', 'Min Acceleration Y', 'Min Acceleration Z', 'Sum Min Acceleration',
-                 'Abs Max Acceleration X', 'Abs Max Acceleration Y', 'Abs Max Acceleration Z', 'Sum Abs Max Acceleration']
+                 'Abs Max Acceleration X', 'Abs Max Acceleration Y', 'Abs Max Acceleration Z', 'Sum Abs Max Acceleration',
+                 'Minimal Acceleration',
+                 'Motion Rotation Rate X', 'Motion Quaternion X', 'Motion User Acceleration X', 'Motion GravityX']
 
 feature_functions = [max_acceleration_x, max_acceleration_y, max_acceleration_z, sum_max_acceleration,
                      mean_acceleration_x_y, mean_acceleration_x, mean_acceleration_y, mean_acceleration_z,
                      count_time_lg_x, count_time_lg_y, count_time_lg_z, count_time_lg_yz,
                      min_acceleration_x, min_acceleration_y, min_acceleration_z, sum_min_acceleration,
-                     max_abs_acceleration_x, max_abs_acceleration_y, max_abs_acceleration_z, sum_max_abs_acceleration]
+                     max_abs_acceleration_x, max_abs_acceleration_y, max_abs_acceleration_z, sum_max_abs_acceleration,
+                     min_acceleration,
+                     motionRotationRateX, motionQuaternionX, motionUserAccelerationX, motionGravityX]
 
 for x, y in zip(feature_names, feature_functions):
     insert_feature(x, y)
+
+#person()
+
+#print(df)
 
 
 ##Execution
