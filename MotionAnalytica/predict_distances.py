@@ -34,6 +34,20 @@ def supervised_regression_algorithm(algorithm):
         print_prediction_vs_target(y_test, y_pred)'''
     print('Root Mean Square Error:', rmse, '-->', algorithm.__name__)
 
+def supervised_regression_algorithm_with_itterations(algorithm, itterations):
+    x = df.drop(['File Name', 'Throw Data Frames', 'Distance', 'Predicted Distance', 'Error', 'Thrower'], axis=1)
+    y = df['Distance']
+    x_train, x_test, y_train, y_test = train_test_split(x, y)
+    sra = algorithm(max_iter=itterations)
+    sra.fit(x_train, y_train)
+    y_pred = sra.predict(x_test)
+    mse = mean_squared_error(y_test, y_pred)
+    rmse = mse**(1/2)
+    #plt_results(y_test, y_pred)
+    '''if algorithm == RandomForestRegressor:
+        print_prediction_vs_target(y_test, y_pred)'''
+    print('Root Mean Square Error:', rmse, '-->', algorithm.__name__)
+
 def cross_fold_validation_multiple_feature(algorithm):
     x = df.drop(['File Name', 'Throw Data Frames', 'Distance', 'Predicted Distance', 'Error', 'Thrower'], axis=1)
     y = df['Distance']
@@ -149,19 +163,19 @@ prediction_accuracy_all_single_feature()
 #single_feature_prediciton(df['Mean Acceleration Z'])
 #cross_fold_validation_single_feature(LinearRegression(), df['Mean Acceleration Z'])
 
-'''supervised_regression_algorithm(DecisionTreeRegressor)
+supervised_regression_algorithm(DecisionTreeRegressor)
 supervised_regression_algorithm(LinearRegression)
 supervised_regression_algorithm(RandomForestRegressor)
 supervised_regression_algorithm(SVR)
 
-print(cross_fold_validation(DecisionTreeRegressor()))
-print(cross_fold_validation(LinearRegression()))
-print(cross_fold_validation(RandomForestRegressor()))
-print(cross_fold_validation(SVR()))'''
+print(cross_fold_validation_multiple_feature(DecisionTreeRegressor()))
+print(cross_fold_validation_multiple_feature(LinearRegression()))
+print(cross_fold_validation_multiple_feature(RandomForestRegressor()))
+print(cross_fold_validation_multiple_feature(SVR()))
 
 
-'''supervised_regression_algorithm_with_itterations(PoissonRegressor, float("inf"))
-supervised_regression_algorithm_with_itterations(Lasso, 100000)'''
+supervised_regression_algorithm_with_itterations(PoissonRegressor, 10000)
+supervised_regression_algorithm_with_itterations(Lasso, 10000)
 
 
 
