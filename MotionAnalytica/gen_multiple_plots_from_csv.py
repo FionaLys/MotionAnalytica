@@ -13,7 +13,7 @@ x_max = 8
 y_min = -30
 y_max = 15
 
-mode = 2  # 1 is acceleleration, 2 is speed, 3 is distance
+mode = 1  # 1 is acceleleration, 2 is speed, 3 is distance
 
 while x == 1:
     folder = input('Welcher Ordner soll verwendet werden werden? ')
@@ -46,43 +46,51 @@ for file in files:
 
 
     # df['time_diff'] = np.diff(df[timestamp][0:len(df)-1])
-    df[timestamp] = df[timestamp] - df[timestamp][0]
+    try:
+        df[timestamp] = df[timestamp] - df[timestamp][0]
+
+        df[column_x] = df[column_x] * 9.81
+        df[column_y] = df[column_y] * 9.81
+        df[column_z] = df[column_z] * 9.81
 
 
-    if mode == 1:
-        modus = "Beschleunigung"
-        plt.title(modus + ": " + file)
-        plt.plot(df[timestamp], df[column_x], label='x')
-        plt.plot(df[timestamp], df[column_y], label='y')
-        plt.plot(df[timestamp], df[column_z], label='z')
-    else:
-        ##erste Integration
-        df['geschw_x'] = np.cumsum(df[column_x] * (df[timestamp][1] - df[timestamp][0]))
-        df['geschw_y'] = np.cumsum(df[column_y] * (df[timestamp][1] - df[timestamp][0]))
-        df['geschw_z'] = np.cumsum(df[column_z] * (df[timestamp][1] - df[timestamp][0]))
-
-        if mode == 2:
-            modus = "Geschwindigkeit"
+        if mode == 1:
+            modus = "Beschleunigung"
             plt.title(modus + ": " + file)
-            plt.plot(df[timestamp], df['geschw_x'], label='x')
-            plt.plot(df[timestamp], df['geschw_y'], label='y')
-            plt.plot(df[timestamp], df['geschw_z'], label='z')
+            plt.plot(df[timestamp], df[column_x], label='x')
+            plt.plot(df[timestamp], df[column_y], label='y')
+            plt.plot(df[timestamp], df[column_z], label='z')
         else:
-            ##zweite Integration
-            df['dist_x'] = np.cumsum(df['geschw_x'] * (df[timestamp][1] - df[timestamp][0]))
-            df['dist_y'] = np.cumsum(df['geschw_y'] * (df[timestamp][1] - df[timestamp][0]))
-            df['dist_z'] = np.cumsum(df['geschw_z'] * (df[timestamp][1] - df[timestamp][0]))
+            ##erste Integration
+            df['geschw_x'] = np.cumsum(df[column_x] * (df[timestamp][1] - df[timestamp][0]))
+            df['geschw_y'] = np.cumsum(df[column_y] * (df[timestamp][1] - df[timestamp][0]))
+            df['geschw_z'] = np.cumsum(df[column_z] * (df[timestamp][1] - df[timestamp][0]))
 
-            modus = "Distanz"
-            plt.title(modus + ": " + file)
-            plt.plot(df[timestamp], df['dist_x'], label='x')
-            plt.plot(df[timestamp], df['dist_y'], label='y')
-            plt.plot(df[timestamp], df['dist_z'], label='z')
+            if mode == 2:
+                modus = "Geschwindigkeit"
+                plt.title(modus + ": " + file)
+                plt.plot(df[timestamp], df['geschw_x'], label='x')
+                plt.plot(df[timestamp], df['geschw_y'], label='y')
+                plt.plot(df[timestamp], df['geschw_z'], label='z')
+            else:
+                ##zweite Integration
+                df['dist_x'] = np.cumsum(df['geschw_x'] * (df[timestamp][1] - df[timestamp][0]))
+                df['dist_y'] = np.cumsum(df['geschw_y'] * (df[timestamp][1] - df[timestamp][0]))
+                df['dist_z'] = np.cumsum(df['geschw_z'] * (df[timestamp][1] - df[timestamp][0]))
 
-    plt.xlim(x_min, x_max)
-    plt.ylim(y_min, y_max)
+                modus = "Distanz"
+                plt.title(modus + ": " + file)
+                plt.plot(df[timestamp], df['dist_x'], label='x')
+                plt.plot(df[timestamp], df['dist_y'], label='y')
+                plt.plot(df[timestamp], df['dist_z'], label='z')
 
-    plt.legend()
+        #plt.xlim(x_min, x_max)
+        #plt.ylim(y_min, y_max)
+        plt.legend()
+    except:
+        pass
+
+
 
     if not os.path.isdir(plotDirPath):
         os.mkdir(plotDirPath)
