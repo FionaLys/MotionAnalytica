@@ -56,20 +56,12 @@ def readCsv(file):
 
 
 def findThrow(df_raw):
-    try:
-        clap_pos = df_raw[df_raw[column_z].gt(5)].index[0]
-    except:
-        clap_pos = 9999999
-    try:
-        clap_neg = df_raw[df_raw[column_z].le(-5)].index[0]
-    except:
-        clap_neg = 9999999
-    if clap_neg > clap_pos:
-        clap = clap_pos
-    else:
-        clap = clap_neg
+    df_raw[column_x] = df_raw[column_x] * 9.81
+    df_raw[column_y] = df_raw[column_y] * 9.81
+    df_raw[column_z] = df_raw[column_z] * 9.81
+    clap = df_raw[df_raw[column_z].abs().gt(30)].index[0]
     dfThrow = df_raw[clap + 50:]
-    throwStart = dfThrow[dfThrow[column_z].gt(5)].index[0] - 10
+    throwStart = dfThrow[dfThrow[column_z].abs().gt(30)].index[0] - 10
     throwEnd = throwStart + 60
     df = df_raw[throwStart:throwEnd]
     return df
@@ -99,7 +91,7 @@ def saveCsv(df, file):
 
 def savePng(file):
     global count
-    plotDirPath = dirPath + "/throwPlot/"
+    plotDirPath = dirPath[:-5] + "/throwPlot/"
     if not os.path.isdir(plotDirPath):
         os.mkdir(plotDirPath)
         print("Plot-Ordner erstellt: " + plotDirPath)
