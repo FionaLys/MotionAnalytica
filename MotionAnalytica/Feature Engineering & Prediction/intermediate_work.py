@@ -5,7 +5,7 @@ from numpy import *
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from matplotlib import pyplot as plt
-from feature_enginieering import *
+from feature_engineering import *
 
 optimal_factors = []
 features = {}
