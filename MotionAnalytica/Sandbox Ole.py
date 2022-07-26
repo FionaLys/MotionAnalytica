@@ -10,7 +10,7 @@ column_z = 'accelerometerAccelerationZ(G)'
 timestamp = 'accelerometerTimestamp_sinceReboot(s)'
 dfEndValues = []
 x = 1
-workmode = 1 #1 for whole folder, 0 for one file
+workmode = 1 #1 for whThrower6 folder, 0 for one file
 
 
 while x == 1:

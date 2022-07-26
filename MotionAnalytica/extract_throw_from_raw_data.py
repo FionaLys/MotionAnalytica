@@ -6,7 +6,7 @@ import os
 
 ### Mode-Adjuster ###
 
-filemode = 1  # 1 for whole folder, 0 for one file
+filemode = 1  # 1 for whThrower6 folder, 0 for one file
 savemode = "csv"  # "plot" for saving plots, "csv" for saving csvs
 
 ######

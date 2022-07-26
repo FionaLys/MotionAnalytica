@@ -85,7 +85,6 @@ print_features_below_x_meter(30)
 configure_view()
 safe_work()
 df = read_work()
-print(df)
 #print(df['Distance'])
 
 

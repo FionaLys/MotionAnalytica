@@ -1,8 +1,8 @@
 #über uns:
 Wir sind drei Idioten, die wi studieren. :)
 
-:) <- Ole
+:) <- Thrower6
 
 :)) <- Fiona
 
-;) <- Markus
+;) <- Thrower5

@@ -1,8 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Modify gen_multiple_plots_from_csv.py&#10;Add sixth and fifth Try with csv and plots">
+    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Prediction Logic">
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/10_Markus_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/10_Sina_1100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/11_Markus_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/11_Sina_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/12_Markus_3000cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/12_Sina_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/13_Markus_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/13_Sina_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/14_Markus_3800cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/14_Sina_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/15_Markus_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/15_Sina_1600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/16_Markus_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/16_Sina_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/17_Markus_3200cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/17_Sina_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/18_Markus_3200cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/18_Sina_1600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/19_Markus_3300cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/19_Sina_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/1_Ole_2600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/20_Markus_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/20_Sina_1600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/21_Markus_2800cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/21_Sina_1800cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/22_Markus_3200cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/22_Sina_1600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/23_Markus_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/23_Sina_1700cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/24_Markus_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/24_Sina_1700cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/25_Markus_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/25_Sina_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/26_Isabel_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/27_Isabel_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/27_Ole_1900cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/28_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/28_Ole_1700cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/29_Isabel_1600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/29_Ole_2000cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/2_Ole_2500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/30_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/30_Ole_2100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/31_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/31_Ole_2300cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/32_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/32_Ole_2400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/33_Isabel_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/34_Isabel_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/34_Ole_2300cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/35_Isabel_1600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/35_Ole_2200cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/36_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/36_Ole_2300cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/37_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/37_Ole_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/38_Isabel_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/38_Ole_2300cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/39_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/39_Ole_2400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/3_Markus_3200cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/3_Ole_2200cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/40_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/40_Ole_2100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/41_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/41_Ole_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/42_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/42_Ole_2400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/43_Isabel_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/43_Ole_2500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/44_Merle_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/44_Ole_2500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/45_Merle_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/45_Ole_2700cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/46_Merle_1000cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/47_Merle_1100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/48_Merle_1300cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/4_Markus_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/4_Ole_2400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/50_Merle_1200cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/51_Merle_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/52_Merle_1600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/53_Merle_1300cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/54_Merle_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/55_Merle_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/56_Merle_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/57_Merle_1400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/58_Merle_1100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/59_Merle_1600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/5_Ole_2500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/60_Merle_1100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/61_Merle_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/62_Merle_1500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/63_Nils_2400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/64_Nils_2400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/65_Nils_2500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/66_Nils_3200cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/67_Nils_2500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/68_Nils_3000cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/69_Nils_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/6_Markus_3600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/6_Ole_2500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/70_Nils_3000cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/71_Nils_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/72_Nils_3100cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/73_Nils_3500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/74_Nils_3500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/75_Nils_3900cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/76_Nils_3700cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/77_Nils_3600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/78_Nils_3800cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/79_Nils_3500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/7_Markus_3600cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/7_Ole_2500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/8_Markus_3500cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/8_Ole_2400cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/9_Markus_3300cm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/All_throws/106_100_Backup/9_Sina_lostcm_100Hz_Beschleunigung_(Wurf).csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/Sandbox Markus.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Sandbox Markus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/Sandbox Ole.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Sandbox Ole.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/data.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/data.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MotionAnalytica/extract_throw_from_raw_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/extract_throw_from_raw_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/feature_enginieering.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/feature_enginieering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/predict_distances.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/predict_distances.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/10_xy_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/11_xy_2700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/12_xy_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/13_xy_2300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/14_Ole_1700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/14_xy_1300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/15_xy_1300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/17_Ole_1300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/17_xy_2100cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/18_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/18_xy_2000cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/19_Ole_1400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/19_xy_3300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/1_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/1_xy_2000cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/20_Ioannis_2800cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/20_Ole_1400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/21_Ioannis_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/21_Ole_2000cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/22_Ioannis_2700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/23_Ioannis_2500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/24_Ioannis_2700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/25_Ioannis_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/26_Ioannis_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/27_Ioannis_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/28_Ioannis_2100cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/29_Nick_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/2_Ole_1400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/2_Ole_1600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/2_xy_3400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/30_Nick_1900cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/32_Nick_2800cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/33_Nick_2900cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/34_Nick_2300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/35_Nick_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/36_Nick_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/37_Nick_2500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/38_Nils_3700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/3_Ole_1300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/3_xy_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/41_Enno_4100cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/43_Enno_4300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/44_Enno_2200cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/4_Ole_1600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/4_xy_3700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/5_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/5_Ole_1700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/5_xy_3200cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/6_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/6_Ole_1600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/6_xy_2700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/7_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/7_xy_4200cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/8_Ole_1700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/8_xy_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/Safe/9_xy_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/change_file_names.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/10_33_Nick_2900cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/11_14_xy_1300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/12_4_Ole_1600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/13_44_Enno_2200cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/14_36_Nick_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/15_21_Ole_2000cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/16_6_Ole_1600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/17_12_xy_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/18_18_xy_2000cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/19_32_Nick_2800cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/1_23_Ioannis_2500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/20_20_Ioannis_2800cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/21_19_xy_3300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/22_1_xy_2000cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/23_7_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/24_28_Ioannis_2100cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/25_22_Ioannis_2700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/26_27_Ioannis_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/27_8_Ole_1700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/28_3_xy_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/29_19_Ole_1400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/2_26_Ioannis_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/30_2_Ole_1400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/31_38_Nils_3700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/32_2_xy_3400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/34_35_Nick_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/35_5_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/36_4_xy_3700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/37_20_Ole_1400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/38_43_Enno_4300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/39_17_Ole_1300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/3_8_xy_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/40_37_Nick_2500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/41_7_xy_4200cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/42_25_Ioannis_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/43_18_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/44_11_xy_2700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/45_34_Nick_2300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/46_1_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/47_9_xy_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/48_30_Nick_1900cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/49_6_xy_2700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/4_41_Enno_4100cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/50_3_Ole_1300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/51_5_Ole_1700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/52_29_Nick_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/53_14_Ole_1700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/54_17_xy_2100cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/55_24_Ioannis_2700cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/56_21_Ioannis_2400cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/57_13_xy_2300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/58_2_Ole_1600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/5_6_Ole_1500cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/7_5_xy_3200cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/8_10_xy_2600cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/All_throws/throwCsv/9_15_xy_1300cm_100Hz_Beschleunigung_(Wurf).csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +280,71 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MotionAnalytica" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/All_throws/104_52_throwCsv" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/All_throws/104_52_throwCsv" />
+      <recent name="$PROJECT_DIR$/data/All_throws" />
+      <recent name="$PROJECT_DIR$/data/All_throws/throwCsv" />
+      <recent name="$PROJECT_DIR$/data/All_throws/Backup" />
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\MotionAnalytica" />
-      <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_06_02_SensorTest" />
-      <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_05_12_secondTry\csv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/All_throws" />
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_06_30_sixthTry\csv" />
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_06_30_fifhTry\csv" />
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_06_02_SensorTest\csv" />
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data" />
-      <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_05_05_firstTry\csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.extract_throw_from_raw_data">
+  <component name="RunManager" selected="Python.predict_distances">
+    <configuration name="Sandbox Markus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MotionAnalytica" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MotionAnalytica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/Sandbox Markus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="anonymize" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MotionAnalytica" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/All_throws/throwCsv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/All_throws/anonymize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="beschl" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MotionAnalytica" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +367,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extract_throw_from_raw_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="feature_enginieering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MotionAnalytica" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,95 +380,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/extract_throw_from_raw_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="genPlots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MotionAnalytica" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MotionAnalytica" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/genPlots.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gen_multiple_plots_from_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MotionAnalytica" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MotionAnalytica" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/gen_multiple_plots_from_csv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getThrow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MotionAnalytica" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MotionAnalytica" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/getThrow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getThrow2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MotionAnalytica" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MotionAnalytica" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/getThrow2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/feature_enginieering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,13 +411,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="predict_distances" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MotionAnalytica" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MotionAnalytica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/predict_distances.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prediction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MotionAnalytica" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MotionAnalytica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/prediction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.extract_throw_from_raw_data" />
-        <item itemvalue="Python.gen_multiple_plots_from_csv" />
-        <item itemvalue="Python.getThrow2" />
-        <item itemvalue="Python.getThrow" />
-        <item itemvalue="Python.genPlots" />
+        <item itemvalue="Python.predict_distances" />
+        <item itemvalue="Python.prediction" />
+        <item itemvalue="Python.feature_enginieering" />
+        <item itemvalue="Python.anonymize" />
+        <item itemvalue="Python.Sandbox Markus" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +497,20 @@
       <workItem from="1655367620207" duration="4239000" />
       <workItem from="1655807702519" duration="110000" />
       <workItem from="1656578296220" duration="4453000" />
+      <workItem from="1656655414378" duration="1873000" />
+      <workItem from="1656665002965" duration="504000" />
+      <workItem from="1656773399493" duration="4328000" />
+      <workItem from="1656838199927" duration="5495000" />
+      <workItem from="1656844466011" duration="4254000" />
+      <workItem from="1656857277511" duration="1727000" />
+      <workItem from="1656934542024" duration="102000" />
+      <workItem from="1656934738154" duration="968000" />
+      <workItem from="1657888294671" duration="10447000" />
+      <workItem from="1658153711815" duration="7186000" />
+      <workItem from="1658174046243" duration="2557000" />
+      <workItem from="1658214219416" duration="1908000" />
+      <workItem from="1658233598987" duration="1013000" />
+      <workItem from="1658768849908" duration="3965000" />
     </task>
     <task id="LOCAL-00001" summary="Update profile pictures">
       <created>1651166632841</created>
@@ -389,13 +647,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="Modify gen_multiple_plots_from_csv.py&#10;Add sixth and fifth Try with csv and plots" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MotionAnalytica$animation.coverage" NAME="animation Coverage Results" MODIFIED="1654076343277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$change_file_names__2_.coverage" NAME="change_file_names (2) Coverage Results" MODIFIED="1656589137143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws/throwCsv" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$beschl.coverage" NAME="beschl Coverage Results" MODIFIED="1652869393183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$feature_engineering.coverage" NAME="feature_engineering Coverage Results" MODIFIED="1656070756581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$change_file_names__1_.coverage" NAME="change_file_names (1) Coverage Results" MODIFIED="1656588985154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws/104_52_throwCsv" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$Sandbox_Markus.coverage" NAME="Sandbox Markus Coverage Results" MODIFIED="1656592058492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$prediction.coverage" NAME="prediction Coverage Results" MODIFIED="1658772407900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$predict_distances.coverage" NAME="predict_distances Coverage Results" MODIFIED="1658772414732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow.coverage" NAME="getThrow Coverage Results" MODIFIED="1654776128273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$labeling.coverage" NAME="labeling Coverage Results" MODIFIED="1652870184202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow2.coverage" NAME="getThrow2 Coverage Results" MODIFIED="1655372687075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$labeling.coverage" NAME="labeling Coverage Results" MODIFIED="1656580489622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$animation.coverage" NAME="animation Coverage Results" MODIFIED="1652874345962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$beschl.coverage" NAME="beschl Coverage Results" MODIFIED="1654169961014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$genPlots.coverage" NAME="genPlots Coverage Results" MODIFIED="1654170361110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$gen_multiple_plots_from_csv.coverage" NAME="gen_multiple_plots_from_csv Coverage Results" MODIFIED="1656581062314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow.coverage" NAME="getThrow Coverage Results" MODIFIED="1655370576354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$change_file_names.coverage" NAME="change_file_names Coverage Results" MODIFIED="1656588934683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$genPlots.coverage" NAME="genPlots Coverage Results" MODIFIED="1652874195694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$change_names.coverage" NAME="change_names Coverage Results" MODIFIED="1656589053103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws/throwCsv" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$feature_enginieering.coverage" NAME="feature_enginieering Coverage Results" MODIFIED="1658772403153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$anonymize.coverage" NAME="anonymize Coverage Results" MODIFIED="1658772026804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws/throwCsv" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$extract_throw_from_raw_data.coverage" NAME="extract_throw_from_raw_data Coverage Results" MODIFIED="1656582769959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$gen_multiple_plots_from_csv.coverage" NAME="gen_multiple_plots_from_csv Coverage Results" MODIFIED="1656581062314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
   </component>
 </project>

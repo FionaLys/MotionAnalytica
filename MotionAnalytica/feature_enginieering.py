@@ -4,6 +4,7 @@ from os.path import isfile, join
 import numpy as np
 
 
+
 from pandas import DataFrame
 
 file_paths = '../data/All_throws/throwCsv/'
@@ -14,13 +15,19 @@ feature_correlation = {}
 feature_correlation_keys = feature_correlation.keys()
 feature_correlation_values = feature_correlation.values()
 
+def configure_view():
+    pd.set_option('display.max_columns', 500)
+    pd.set_option('display.width', 250)
 
 #Base Functions of Feature Rating
 def initialize_feature_rating():
 
     #Get filenames of throws
     files = [file for file in listdir(file_paths) if 'lost' not in file]        #Filters lost throws
+    print(files[0].split('_')[0])
+    print(files[1].split('_')[0])
     files_sorted_asc = sorted(files, key=lambda x: int(x.split('_')[0]))
+    print(files_sorted_asc)
 
     #Safe one df for every throw in list
     df_throws = []
@@ -41,7 +48,7 @@ def initialize_feature_rating():
     thrower = [file[find_nth(file, '_', 2) + 1:find_nth(file, '_', 3)] for file in files_sorted_asc]
 
     #Insert into dictionary
-    data['File Name'] = files_sorted_asc
+    data['File Name'] = files
     data['Throw Data Frames'] = df_throws
     data['Distance'] = throw_distance
     data['Thrower'] = thrower
@@ -73,7 +80,7 @@ def print_feature_correlation():
 
     #Print Dict
     for k, v in zip(feature_correlation_sorted['Name of Function'], feature_correlation_sorted['Korrelation']):
-        print(str(k) + ' korreliert zu ' + str(int(round((v * 100)))) + '% mit der Wurfweite.')
+        print(str(k) + ' ' + str(int(round((v * 100)))))
 
 #Collection of Feature
 
@@ -173,7 +180,6 @@ def person():
     throwers = list(df['Thrower'].unique())
     for thrower in throwers:
         df[thrower] = np.where(df['Thrower'] == thrower, 1, 0)
-    #df.drop('Nils', 'xy')
 
 
 #Main-Method
@@ -189,22 +195,24 @@ feature_names = ['Max Acceleration X', 'Max Acceleration Y', 'Max Acceleration Z
                  'Count Duration > X', 'Count Duration > Y', 'Count Duration > Z', 'Count Duration > Sum',
                  'Min Acceleration X', 'Min Acceleration Y', 'Min Acceleration Z', 'Sum Min Acceleration',
                  'Abs Max Acceleration X', 'Abs Max Acceleration Y', 'Abs Max Acceleration Z', 'Sum Abs Max Acceleration',
-                 'Minimal Acceleration',
-                 'Motion Rotation Rate X', 'Motion Quaternion X', 'Motion User Acceleration X', 'Motion GravityX']
+                 'Minimal Acceleration from XYZ']
+                #'Motion Rotation Rate X', 'Motion Quaternion X', 'Motion User Acceleration X', 'Motion GravityX'
+
 
 feature_functions = [max_acceleration_x, max_acceleration_y, max_acceleration_z, sum_max_acceleration,
                      mean_acceleration_x_y, mean_acceleration_x, mean_acceleration_y, mean_acceleration_z,
                      count_time_lg_x, count_time_lg_y, count_time_lg_z, count_time_lg_yz,
                      min_acceleration_x, min_acceleration_y, min_acceleration_z, sum_min_acceleration,
                      max_abs_acceleration_x, max_abs_acceleration_y, max_abs_acceleration_z, sum_max_abs_acceleration,
-                     min_acceleration,
-                     motionRotationRateX, motionQuaternionX, motionUserAccelerationX, motionGravityX]
+                     min_acceleration]#,
+                     #motionRotationRateX, motionQuaternionX, motionUserAccelerationX, motionGravityX
 
 for x, y in zip(feature_names, feature_functions):
     insert_feature(x, y)
 
 #person()
-
+print_feature_correlation()
+configure_view()
 #print(df)
 
 
