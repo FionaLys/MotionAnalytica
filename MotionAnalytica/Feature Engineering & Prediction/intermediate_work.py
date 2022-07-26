@@ -9,7 +9,9 @@ from feature_enginieering import *
 
 optimal_factors = []
 features = {}
-
+'''
+NOT IN USE ANYMORE
+'''
 
 
 def predict_distance_single_feature(predictor):
@@ -77,7 +79,7 @@ def configure_view():
 #print(df)
 #print(df)
 
-print_features_below_x_meter(30)
+#print_features_below_x_meter(30)
 #print(features)
 #print(df)
 #df.plot.scatter(x = 'Sum Abs Max Acceleration', y = 'Distance', alpha = 0.5)

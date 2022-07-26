@@ -7,7 +7,7 @@ import numpy as np
 
 from pandas import DataFrame
 
-file_paths = '../data/All_throws/throwCsv/'
+file_paths = '/Users/markus/PycharmProjects/MotionAnalytica/data/All_throws/throwCsv/'
 
 #Data to be inserted into df
 data = {}
@@ -24,11 +24,7 @@ def initialize_feature_rating():
 
     #Get filenames of throws
     files = [file for file in listdir(file_paths) if 'lost' not in file]        #Filters lost throws
-    print(files[0].split('_')[0])
-    print(files[1].split('_')[0])
     files_sorted_asc = sorted(files, key=lambda x: int(x.split('_')[0]))
-    print(files_sorted_asc)
-
     #Safe one df for every throw in list
     df_throws = []
     for file in files_sorted_asc:
@@ -181,6 +177,8 @@ def person():
     for thrower in throwers:
         df[thrower] = np.where(df['Thrower'] == thrower, 1, 0)
 
+def safe_work():
+    df.to_pickle('/Users/markus/PycharmProjects/MotionAnalytica/MotionAnalytica/Feature Engineering & Prediction/data.pkl')
 
 #Main-Method
 
@@ -207,12 +205,17 @@ feature_functions = [max_acceleration_x, max_acceleration_y, max_acceleration_z,
                      min_acceleration]#,
                      #motionRotationRateX, motionQuaternionX, motionUserAccelerationX, motionGravityX
 
+
+initialize_feature_rating()
+df = create_feature_rating()
 for x, y in zip(feature_names, feature_functions):
     insert_feature(x, y)
 
-#person()
+person()
+safe_work()
+
 print_feature_correlation()
-configure_view()
+
 #print(df)
 
 
