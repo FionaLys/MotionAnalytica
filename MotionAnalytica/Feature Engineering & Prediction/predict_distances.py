@@ -22,7 +22,7 @@ rmse_of_all_features = {}
 
 #Organizational
 def read_work():
-    return pd.read_pickle('data.pkl')
+    return pd.read_pickle('/Users/markus/PycharmProjects/MotionAnalytica/MotionAnalytica/Feature Engineering & Prediction/data.pkl')
 
 def configure_view():
     pd.set_option('display.max_columns', 500)
@@ -292,8 +292,8 @@ def find_optimal_alpha():
     visualizer = AlphaSelection(model)
     visualizer.fit(x, y)
     visualizer.show()
-
-find_optimal_alpha()
+print(df)
+#find_optimal_alpha()
 
 #print_var_correlations()
 #prediction_accuracy_all_single_feature()
@@ -367,7 +367,7 @@ for algorithm in [LinearRegression]:    #
     print(algorithm.__name__, round(avg_rmse / 100, 2))
     print(datetime.now() - start)
 
-'''for algorithm in [Lasso, Ridge]:
+for algorithm in [Lasso, Ridge]:
     start = datetime.now()
     sum_rmse = 0
     itterations = 1000
@@ -376,7 +376,7 @@ for algorithm in [LinearRegression]:    #
         sum_rmse += rmse
     avg_rmse = sum_rmse / itterations
     print(algorithm.__name__, round(avg_rmse / 100, 2))
-    print(datetime.now() - start)'''
+    print(datetime.now() - start)
 
 #rmse_of_all_features = {k: v for k, v in sorted(rmse_of_all_features.items(), key=lambda item: item[1])}
 

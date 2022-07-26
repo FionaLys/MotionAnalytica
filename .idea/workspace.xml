@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Restructure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/feature_enginieering.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/feature_engineering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/intermediate_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/intermediate_work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/extract_throw_from_raw_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Data Preprocessing/extract_throw_from_raw_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/gen_multiple_plots_from_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Data Preprocessing/gen_multiple_plots_from_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/gen_single_plot_from_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Data Preprocessing/gen_single_plot_from_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/labeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Data Preprocessing/labeling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MotionAnalytica/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/readme.md" afterDir="false" />
+    <list default="true" id="a095efe9-c54c-44d6-aefb-f3a60545028e" name="Changes" comment="Restructure Folders">
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/data.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/data.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/feature_engineering.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/feature_engineering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/intermediate_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/intermediate_work_and_store_feature_values.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/predict_distances.py" beforeDir="false" afterPath="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/predict_distances.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +56,14 @@
       <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\MotionAnalytica" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction" />
+      <recent name="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/Archive" />
       <recent name="$PROJECT_DIR$/MotionAnalytica/Data Preprocessing" />
       <recent name="$PROJECT_DIR$/MotionAnalytica" />
-      <recent name="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction" />
       <recent name="$PROJECT_DIR$/data/All_throws" />
-      <recent name="C:\Users\olear\PycharmProjects\MotionAnalytica\data\2022_06_30_sixthTry\csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.feature_engineering">
+  <component name="RunManager" selected="Python.predict_distances">
     <configuration name="Sandbox Markus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MotionAnalytica" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="intermediate_work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="intermediate_work_and_store_feature_values" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MotionAnalytica" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +165,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/intermediate_work.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MotionAnalytica/Feature Engineering &amp; Prediction/intermediate_work_and_store_feature_values.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,9 +220,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.feature_engineering" />
-        <item itemvalue="Python.intermediate_work" />
         <item itemvalue="Python.predict_distances" />
+        <item itemvalue="Python.intermediate_work_and_store_feature_values" />
+        <item itemvalue="Python.feature_engineering" />
         <item itemvalue="Python.anonymize" />
         <item itemvalue="Python.Sandbox Markus" />
       </list>
@@ -277,7 +273,7 @@
       <workItem from="1658174046243" duration="2557000" />
       <workItem from="1658214219416" duration="1908000" />
       <workItem from="1658233598987" duration="1013000" />
-      <workItem from="1658768849908" duration="5322000" />
+      <workItem from="1658768849908" duration="5769000" />
     </task>
     <task id="LOCAL-00001" summary="Update profile pictures">
       <created>1651166632841</created>
@@ -391,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658827250788</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Restructure Folders">
+      <created>1658827654044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658827654044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +430,8 @@
     <MESSAGE value="Modify gen_multiple_plots_from_csv.py&#10;Add sixth and fifth Try with csv and plots" />
     <MESSAGE value="Prediction Logic" />
     <MESSAGE value="Restructure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructure" />
+    <MESSAGE value="Restructure Folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructure Folders" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MotionAnalytica$animation.coverage" NAME="animation Coverage Results" MODIFIED="1654076343277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
@@ -436,15 +440,15 @@
     <SUITE FILE_PATH="coverage/MotionAnalytica$feature_engineering.coverage" NAME="feature_engineering Coverage Results" MODIFIED="1656070756581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$change_file_names__1_.coverage" NAME="change_file_names (1) Coverage Results" MODIFIED="1656588985154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws/104_52_throwCsv" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$Sandbox_Markus.coverage" NAME="Sandbox Markus Coverage Results" MODIFIED="1656592058492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$predict_distances.coverage" NAME="predict_distances Coverage Results" MODIFIED="1658772414732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$prediction.coverage" NAME="prediction Coverage Results" MODIFIED="1658826370616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$prediction.coverage" NAME="intermediate_work_and_store_feature_values Coverage Results" MODIFIED="1658828078603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$predict_distances.coverage" NAME="predict_distances Coverage Results" MODIFIED="1658828086667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow.coverage" NAME="getThrow Coverage Results" MODIFIED="1654776128273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$labeling.coverage" NAME="labeling Coverage Results" MODIFIED="1652870184202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$getThrow2.coverage" NAME="getThrow2 Coverage Results" MODIFIED="1655372687075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$change_file_names.coverage" NAME="change_file_names Coverage Results" MODIFIED="1656588934683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$genPlots.coverage" NAME="genPlots Coverage Results" MODIFIED="1652874195694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$change_names.coverage" NAME="change_names Coverage Results" MODIFIED="1656589053103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws/throwCsv" />
-    <SUITE FILE_PATH="coverage/MotionAnalytica$feature_enginieering.coverage" NAME="feature_enginieering Coverage Results" MODIFIED="1658827145171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
+    <SUITE FILE_PATH="coverage/MotionAnalytica$feature_enginieering.coverage" NAME="feature_engineering Coverage Results" MODIFIED="1658827995655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$anonymize.coverage" NAME="anonymize Coverage Results" MODIFIED="1658772026804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/All_throws/throwCsv" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$extract_throw_from_raw_data.coverage" NAME="extract_throw_from_raw_data Coverage Results" MODIFIED="1656582769959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />
     <SUITE FILE_PATH="coverage/MotionAnalytica$gen_multiple_plots_from_csv.coverage" NAME="gen_multiple_plots_from_csv Coverage Results" MODIFIED="1656581062314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MotionAnalytica" />

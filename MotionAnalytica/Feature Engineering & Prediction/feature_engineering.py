@@ -177,8 +177,7 @@ def person():
     for thrower in throwers:
         df[thrower] = np.where(df['Thrower'] == thrower, 1, 0)
 
-def safe_work():
-    df.to_pickle('/Users/markus/PycharmProjects/MotionAnalytica/MotionAnalytica/Feature Engineering & Prediction/data.pkl')
+
 
 #Main-Method
 
@@ -212,7 +211,6 @@ for x, y in zip(feature_names, feature_functions):
     insert_feature(x, y)
 
 person()
-safe_work()
 
 print_feature_correlation()
 

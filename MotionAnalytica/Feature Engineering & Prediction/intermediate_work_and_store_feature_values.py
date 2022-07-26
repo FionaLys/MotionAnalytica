@@ -64,22 +64,22 @@ def print_features_below_x_meter(x):
         print(feature, 'error is', feature_error, 'meter')
 
 def safe_work():
-    df.to_pickle('data.pkl')
+    df.to_pickle('/Users/markus/PycharmProjects/MotionAnalytica/MotionAnalytica/Feature Engineering & Prediction/data.pkl')
 
 def read_work():
-    return pd.read_pickle('data.pkl')
+    return pd.read_pickle('/Users/markus/PycharmProjects/MotionAnalytica/MotionAnalytica/Feature Engineering & Prediction/data.pkl')
 
 def configure_view():
     pd.set_option('display.max_columns', 500)
     pd.set_option('display.width', 250)
 
-#print_feature_correlation()
+print_feature_correlation()
 #calculate_weighted_feature()
 #print(sum(df['calculate_weighted_feature'] / len(df)))
 #print(df)
 #print(df)
 
-#print_features_below_x_meter(30)
+print_features_below_x_meter(30)
 #print(features)
 #print(df)
 #df.plot.scatter(x = 'Sum Abs Max Acceleration', y = 'Distance', alpha = 0.5)
