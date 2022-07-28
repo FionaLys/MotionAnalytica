@@ -292,10 +292,13 @@ def find_optimal_alpha():
     visualizer = AlphaSelection(model)
     visualizer.fit(x, y)
     visualizer.show()
-print(df)
-#find_optimal_alpha()
+#print(df)
+find_optimal_alpha()
 
 #print_var_correlations()
+#supervised_regression_algorithm(DecisionTreeRegressor)
+#supervised_regression_algorithm(LinearRegression)
+#supervised_regression_algorithm(RandomForestRegressor)
 #prediction_accuracy_all_single_feature()
 #supervised_regression_algorithm(LinearRegression)
 #decision_tree_regression()
@@ -356,7 +359,7 @@ for feature in df.drop(['File Name', 'Throw Data Frames', 'Distance', 'Predicted
     print(datetime.now() - start)'''
 
 
-for algorithm in [LinearRegression]:    #
+'''for algorithm in [LinearRegression]:    #
     start = datetime.now()
     sum_rmse = 0
     itterations = 1000
@@ -376,7 +379,7 @@ for algorithm in [Lasso, Ridge]:
         sum_rmse += rmse
     avg_rmse = sum_rmse / itterations
     print(algorithm.__name__, round(avg_rmse / 100, 2))
-    print(datetime.now() - start)
+    print(datetime.now() - start)'''
 
 #rmse_of_all_features = {k: v for k, v in sorted(rmse_of_all_features.items(), key=lambda item: item[1])}
 
